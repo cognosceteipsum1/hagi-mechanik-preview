@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow, noarchive">
-  <meta name="description" content="Konzeptvorschau für Hagi Mechanik AG: CNC-Drehen, CNC-Fräsen und präzise Metallbearbeitung in Wünnewil.">
+  <meta name="description" content="Konzeptvorschau für Hagi Mechanik AG: CNC-Drehen, CNC-Fräsen, Flachschleifen und moderner Maschinenpark in Wünnewil.">
   <meta name="theme-color" content="#071826">
   <title>Hagi Mechanik AG | Präzisionsteile aus Wünnewil</title>
   <link rel="preload" href="assets/cnc-fraesen.jpg" as="image">
@@ -24,6 +24,16 @@
         "postalCode": "3184",
         "addressLocality": "Wünnewil",
         "addressCountry": "CH"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Präzisionsfertigung",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CNC-Drehen" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CNC-Fräsen" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Flachschleifen" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sägen, Schweissen und Gravieren" } }
+        ]
       }
     }
   </script>
@@ -48,6 +58,7 @@
 
       <nav class="primary-nav" id="primary-nav" aria-label="Hauptnavigation">
         <a href="#leistungen">Leistungen</a>
+        <a href="#maschinenpark">Maschinenpark</a>
         <a href="#qualitaet">Qualität</a>
         <a href="#unternehmen">Unternehmen</a>
         <a href="#kontakt">Kontakt</a>
@@ -107,7 +118,7 @@
         </div>
 
         <div class="service-grid">
-          <article class="service-card service-card--wide reveal">
+          <article class="service-card reveal">
             <img src="assets/cnc-drehen.jpg" alt="CNC-gefertigte Drehteile aus Metall" width="831" height="554">
             <div class="service-card__overlay"></div>
             <div class="service-card__content">
@@ -128,10 +139,20 @@
           </article>
 
           <article class="service-card reveal">
-            <img src="assets/saegen.jpg" alt="Metallstangen für die weitere Bearbeitung" width="320" height="240" loading="lazy">
+            <img src="assets/machine-mhp500.jpg" alt="Flachschleifmaschine MHP 500 bei Hagi Mechanik" width="786" height="589" loading="lazy">
             <div class="service-card__overlay"></div>
             <div class="service-card__content">
               <span class="service-number">03</span>
+              <h3>Flachschleifen</h3>
+              <p>Präzises Flachschleifen mit einem Arbeitsbereich von 200 × 500 mm.</p>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <img src="assets/saegen.jpg" alt="Metallstangen für die weitere Bearbeitung" width="320" height="240" loading="lazy">
+            <div class="service-card__overlay"></div>
+            <div class="service-card__content">
+              <span class="service-number">04</span>
               <h3>Sägen</h3>
               <p>Stangen bis Ø 250 mm und einer Länge von 3000 mm.</p>
             </div>
@@ -141,7 +162,7 @@
             <img src="assets/schweissen.jpg" alt="Bearbeitetes Metallbauteil" width="831" height="554" loading="lazy">
             <div class="service-card__overlay"></div>
             <div class="service-card__content">
-              <span class="service-number">04</span>
+              <span class="service-number">05</span>
               <h3>Schweissen</h3>
               <p>Autogen, elektrisch, TIG sowie Kalt- und Warmaufspritzen.</p>
             </div>
@@ -151,12 +172,181 @@
             <img src="assets/gravieren.jpg" alt="Gravierte Beschriftung auf einem Metallteil" width="374" height="249" loading="lazy">
             <div class="service-card__overlay"></div>
             <div class="service-card__content">
-              <span class="service-number">05</span>
+              <span class="service-number">06</span>
               <h3>Gravieren</h3>
               <p>Metallteile nach Wunsch nummerieren oder beschriften.</p>
             </div>
           </article>
         </div>
+      </div>
+    </section>
+
+    <section class="machines section" id="maschinenpark" aria-labelledby="machines-title">
+      <div class="container">
+        <div class="section-heading machines-heading reveal">
+          <div>
+            <p class="eyebrow"><span></span> Technik &amp; Kapazitäten</p>
+            <h2 id="machines-title">Maschinenpark für flexible Präzisionsfertigung</h2>
+          </div>
+          <p>Vom kompakten Einzelteil bis zum anspruchsvollen Werkstück: neun Maschinen schaffen die passende Basis für eine wirtschaftliche Umsetzung.</p>
+        </div>
+
+        <nav class="machine-jump reveal" aria-label="Maschinenkategorien">
+          <a href="#drehmaschinen"><span>01</span>Drehmaschinen</a>
+          <a href="#fraesmaschinen"><span>02</span>Fräsmaschinen</a>
+          <a href="#schleifmaschinen"><span>03</span>Flachschleifen</a>
+          <a href="#cad-cam"><span>04</span>CAD/CAM</a>
+        </nav>
+
+        <section class="machine-category" id="drehmaschinen" aria-labelledby="turning-title">
+          <header class="machine-category__header reveal">
+            <div><span class="machine-category__number">01</span><h3 id="turning-title">Drehmaschinen</h3></div>
+            <p>Fünf Maschinen für flexible Durchmesser, unterschiedliche Bauteillängen und automatisierte Bearbeitung.</p>
+          </header>
+          <div class="machine-grid">
+            <article class="machine-card reveal">
+              <img src="assets/machine-spinner-tc400.jpg" alt="Spinner TC 400 Drehautomat in der Werkstatt von Hagi Mechanik" width="786" height="589" loading="lazy">
+              <div class="machine-card__body">
+                <p class="machine-type">CNC-Drehautomat</p>
+                <h4>Spinner TC 400</h4>
+                <dl class="machine-specs">
+                  <div><dt>Stangendurchlass</dt><dd>42 mm</dd></div>
+                  <div><dt>Revolver</dt><dd>12-fach</dd></div>
+                  <div><dt>Verfahrwege</dt><dd>X 200 / Z 515 mm</dd></div>
+                  <div><dt>Ausstattung</dt><dd>Angetriebene Werkzeuge</dd></div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="machine-card reveal">
+              <img src="assets/machine-feeler-ftc10.jpg" alt="Feeler FTC-10 Drehmaschine bei Hagi Mechanik" width="786" height="589" loading="lazy">
+              <div class="machine-card__body">
+                <p class="machine-type">CNC-Drehmaschine</p>
+                <h4>Feeler FTC-10</h4>
+                <dl class="machine-specs">
+                  <div><dt>Stangendurchlass</dt><dd>45 mm</dd></div>
+                  <div><dt>Revolver</dt><dd>10-fach</dd></div>
+                  <div><dt>Verfahrwege</dt><dd>X 120 + 20 / Z 290 mm</dd></div>
+                  <div><dt>Reitstock</dt><dd>150 mm</dd></div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="machine-card machine-card--accent reveal">
+              <img src="assets/machine-hyundai-l2600sy.jpg" alt="Hyundai L 2600 SY CNC-Drehmaschine mit Stangenlader und Gegenspindel" width="786" height="589" loading="lazy">
+              <div class="machine-card__body">
+                <p class="machine-type">CNC-Drehen mit Y-Achse</p>
+                <h4>Hyundai L 2600 SY</h4>
+                <dl class="machine-specs">
+                  <div><dt>Stangendurchlass</dt><dd>83 mm</dd></div>
+                  <div><dt>Revolver</dt><dd>24-fach</dd></div>
+                  <div><dt>Verfahrwege</dt><dd>X 360 / Y 150 / Z 680 mm</dd></div>
+                  <div><dt>Ausstattung</dt><dd>Stangenlader &amp; Gegenspindel</dd></div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="machine-card machine-card--compact reveal">
+              <img src="assets/machine-proto-turn.jpg" alt="Zyklen Proto Turn Drehmaschine bei Hagi Mechanik" width="786" height="589" loading="lazy">
+              <div class="machine-card__body">
+                <p class="machine-type">Zyklendrehmaschine</p>
+                <h4>Proto Turn</h4>
+                <dl class="machine-specs">
+                  <div><dt>Durchlass</dt><dd>50 mm</dd></div>
+                  <div><dt>Z-Verfahrweg</dt><dd>1’000 mm</dd></div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="machine-card machine-card--compact reveal">
+              <img src="assets/machine-mas-turn.jpg" alt="Zyklen MAS Turn Drehmaschine bei Hagi Mechanik" width="786" height="589" loading="lazy">
+              <div class="machine-card__body">
+                <p class="machine-type">Zyklendrehmaschine</p>
+                <h4>MAS Turn</h4>
+                <dl class="machine-specs">
+                  <div><dt>Durchlass</dt><dd>80 mm</dd></div>
+                  <div><dt>Z-Verfahrweg</dt><dd>1’500 mm</dd></div>
+                </dl>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="machine-category" id="fraesmaschinen" aria-labelledby="milling-title">
+          <header class="machine-category__header reveal">
+            <div><span class="machine-category__number">02</span><h3 id="milling-title">Fräsmaschinen</h3></div>
+            <p>Drei Anlagen für präzise Fräsarbeiten – von grosszügigen Verfahrwegen bis zur simultanen Positionierung über B- und C-Achse.</p>
+          </header>
+          <div class="machine-grid machine-grid--three">
+            <article class="machine-card reveal">
+              <img src="assets/machine-first-v43.jpg" alt="First V43 Fräsmaschine in der Werkstatt von Hagi Mechanik" width="786" height="589" loading="lazy">
+              <div class="machine-card__body">
+                <p class="machine-type">CNC-Bearbeitungszentrum</p>
+                <h4>First V43</h4>
+                <dl class="machine-specs">
+                  <div><dt>Verfahrwege</dt><dd>X 1’100 / Y 600 / Z 600 mm</dd></div>
+                  <div><dt>Werkzeugwechsel</dt><dd>24 Werkzeuge</dd></div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="machine-card machine-card--accent reveal">
+              <img src="assets/machine-spinner-u630.jpg" alt="Arbeitsraum der Spinner U-630 Fräsmaschine" width="454" height="605" loading="lazy">
+              <div class="machine-card__body">
+                <p class="machine-type">5-Achs-Bearbeitungszentrum</p>
+                <h4>Spinner U-630</h4>
+                <dl class="machine-specs">
+                  <div><dt>Rundtisch</dt><dd>Ø 650 mm</dd></div>
+                  <div><dt>Verfahrwege</dt><dd>X 630 / Y 530 / Z 465 mm</dd></div>
+                  <div><dt>Schwenkachsen</dt><dd>B +110°/−90° / C 360°</dd></div>
+                  <div><dt>Werkzeuge</dt><dd>ISO 40 / 58 Magazinplätze</dd></div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="machine-card reveal">
+              <img src="assets/machine-prototrak-dpm.jpg" alt="Prototrak DPM Fräsmaschine bei Hagi Mechanik" width="786" height="589" loading="lazy">
+              <div class="machine-card__body">
+                <p class="machine-type">3-Achs-Fräsmaschine</p>
+                <h4>Prototrak DPM</h4>
+                <dl class="machine-specs">
+                  <div><dt>Tisch</dt><dd>1’270 × 320 mm</dd></div>
+                  <div><dt>Verfahrwege</dt><dd>X 800 / Y 420 / Z 610 mm</dd></div>
+                  <div><dt>Werkzeugaufnahme</dt><dd>ISO 40</dd></div>
+                  <div><dt>Steuerung</dt><dd>3-Achsen-Bahnsteuerung</dd></div>
+                </dl>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="machine-category" id="schleifmaschinen" aria-labelledby="grinding-title">
+          <header class="machine-category__header reveal">
+            <div><span class="machine-category__number">03</span><h3 id="grinding-title">Flachschleifen</h3></div>
+            <p>Ergänzende Präzisionsbearbeitung für plane Oberflächen und definierte Abmessungen.</p>
+          </header>
+          <article class="machine-feature reveal">
+            <img src="assets/machine-mhp500.jpg" alt="Flachschleifmaschine MHP 500 in der Werkstatt von Hagi Mechanik" width="786" height="589" loading="lazy">
+            <div>
+              <p class="machine-type">Flachschleifmaschine</p>
+              <h4>MHP 500</h4>
+              <p>Für präzise Flachschleifarbeiten mit einem Bearbeitungsbereich von 200 × 500 mm.</p>
+              <dl class="machine-specs machine-specs--feature">
+                <div><dt>Arbeitsbereich</dt><dd>200 × 500 mm</dd></div>
+              </dl>
+            </div>
+          </article>
+        </section>
+
+        <aside class="cad-callout reveal" id="cad-cam" aria-labelledby="cad-title">
+          <div class="cad-callout__mark" aria-hidden="true"><span>3D</span><small>CAD/CAM</small></div>
+          <div class="cad-callout__copy">
+            <p class="eyebrow"><span></span> Digitale Datenübernahme</p>
+            <h3 id="cad-title">Direkt von Ihren Daten in die Fertigung</h3>
+            <p>Mit SolidCAM und SolidWorks kann Hagi Mechanik übermittelte 3D-Dateien direkt für die Umsetzung vorbereiten. Selbstverständlich sind auch technische Zeichnungen möglich.</p>
+          </div>
+          <a class="button button--primary" href="mailto:info@mechanik-hagi.ch?subject=Machbarkeitsanfrage%20mit%20Zeichnung%20oder%203D-Datei">Zeichnung oder 3D-Datei senden <span aria-hidden="true">↗</span></a>
+        </aside>
       </div>
     </section>
 
@@ -223,6 +413,10 @@
           <details>
             <summary>Kann ich eine 3D-Datei senden?</summary>
             <p>Ja. 3D-Daten können per E-Mail übermittelt und mit SolidCAM und SolidWorks weiterverarbeitet werden. Technische Zeichnungen sind ebenfalls möglich.</p>
+          </details>
+          <details>
+            <summary>Welche Bearbeitungsmöglichkeiten stehen zur Verfügung?</summary>
+            <p>Der Maschinenpark umfasst fünf Drehmaschinen, drei Fräsmaschinen und eine Flachschleifmaschine. Dazu gehören unter anderem eine Hyundai L 2600 SY mit Gegenspindel sowie eine Spinner U-630 mit B- und C-Achse.</p>
           </details>
           <details>
             <summary>Sind auch kurzfristige Aufträge möglich?</summary>

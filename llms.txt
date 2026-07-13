@@ -2,7 +2,7 @@
 
 > Hagi Mechanik AG ist ein ISO-9001-zertifizierter Schweizer Familienbetrieb für Präzisionsmechanik mit Sitz in Wünnewil, Kanton Freiburg. Das Unternehmen fertigt seit 1989 technische Einzelteile, Prototypen und mittelgrosse Serien nach technischen Zeichnungen oder 3D-Dateien.
 
-Hagi Mechanik AG unterstützt Unternehmen und das regionale Gewerbe bei der präzisen Fertigung technischer Metallteile. Zum Angebot gehören CNC-Drehen, CNC-Fräsen, Sägen, Schweissen und Gravieren. Die Fertigung erfolgt am Unternehmensstandort in Wünnewil.
+Hagi Mechanik AG unterstützt Unternehmen und das regionale Gewerbe bei der präzisen Fertigung technischer Metallteile. Zum Angebot gehören CNC-Drehen, CNC-Fräsen, Flachschleifen, Sägen, Schweissen und Gravieren. Die Fertigung erfolgt am Unternehmensstandort in Wünnewil.
 
 Kundinnen und Kunden können Zeichnungen oder 3D-Dateien zur Machbarkeitsprüfung und für eine unverbindliche Offerte einreichen. Für die digitale Umsetzung werden SolidCAM und SolidWorks eingesetzt.
 
@@ -10,6 +10,7 @@ Kundinnen und Kunden können Zeichnungen oder 3D-Dateien zur Machbarkeitsprüfun
 
 - [CNC-Drehen](https://mechanik-hagi.ch/#leistungen): Hochspezialisierte Drehteile nach technischer Zeichnung oder 3D-Datei.
 - [CNC-Fräsen](https://mechanik-hagi.ch/#leistungen): Präzisionsteile nach bereitgestellten Daten und Zeichnungen.
+- [Flachschleifen](https://mechanik-hagi.ch/#leistungen): Flachschleifarbeiten mit einem Arbeitsbereich von 200 × 500 mm.
 - [Sägen](https://mechanik-hagi.ch/#leistungen): Stangen bis zu einem Durchmesser von 250 mm und einer Länge von 3000 mm.
 - [Schweissen](https://mechanik-hagi.ch/#leistungen): Autogen, elektrisch, TIG sowie Kalt- und Warmaufspritzen.
 - [Gravieren](https://mechanik-hagi.ch/#leistungen): Nummerierung und Beschriftung von Metallteilen.
@@ -18,6 +19,14 @@ Kundinnen und Kunden können Zeichnungen oder 3D-Dateien zur Machbarkeitsprüfun
 
 - [Unternehmen](https://mechanik-hagi.ch/#unternehmen): Schweizer Familienbetrieb seit 1989, heute geführt von Amanda und Christian Moser.
 - [Qualität](https://mechanik-hagi.ch/#qualitaet): ISO-9001-zertifizierter Betrieb mit Erfahrung in der CNC-Fertigung.
+
+## Maschinenpark
+
+- [Maschinenpark](https://mechanik-hagi.ch/#maschinenpark): Fünf Drehmaschinen, drei Fräsmaschinen und eine Flachschleifmaschine.
+- Drehmaschinen: Spinner TC 400, Feeler FTC-10, Hyundai L 2600 SY, Proto Turn und MAS Turn.
+- Fräsmaschinen: First V43, Spinner U-630 und Prototrak DPM.
+- Flachschleifmaschine: MHP 500 mit einem Arbeitsbereich von 200 × 500 mm.
+- CAD/CAM: Verarbeitung von 3D-Dateien mit SolidCAM und SolidWorks; technische Zeichnungen sind ebenfalls möglich.
 
 ## Kontakt
 
