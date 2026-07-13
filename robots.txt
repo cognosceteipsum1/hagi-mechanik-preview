@@ -1,2 +1,6 @@
 User-agent: *
-Disallow: /
+Allow: /
+
+# Die Konzeptvorschau bleibt über das noindex-Meta-Tag von Suchresultaten ausgeschlossen.
+# Das Crawling bleibt erlaubt, damit Suchmaschinen die noindex-Anweisung lesen
+# und Messenger die Open-Graph-Linkvorschau erzeugen können.
