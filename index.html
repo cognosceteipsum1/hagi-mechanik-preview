@@ -458,8 +458,19 @@
         <div class="contact-location">
           <img src="assets/anfahrt.jpg" alt="Werkstattgebäude der Hagi Mechanik AG in Wünnewil" width="789" height="592" loading="lazy">
           <div class="location-card">
-            <p><strong>Hagi Mechanik AG</strong><br>Felsenegg 26<br>3184 Wünnewil</p>
-            <a href="https://www.google.com/maps/search/?api=1&query=Felsenegg+26%2C+3184+W%C3%BCnnewil" target="_blank" rel="noopener">Route öffnen ↗</a>
+            <span class="location-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"></path>
+                <circle cx="12" cy="10" r="2.5"></circle>
+              </svg>
+            </span>
+            <div class="location-card__details">
+              <span class="location-card__eyebrow">Standort &amp; Anfahrt</span>
+              <p><strong>Hagi Mechanik AG</strong><br>Felsenegg 26 · 3184 Wünnewil</p>
+            </div>
+            <a class="location-card__route" href="https://www.google.com/maps/search/?api=1&query=Felsenegg+26%2C+3184+W%C3%BCnnewil" target="_blank" rel="noopener" aria-label="Route zu Hagi Mechanik in Google Maps planen – öffnet in einem neuen Fenster">
+              <span>Route planen</span><span class="location-card__route-icon" aria-hidden="true">↗</span>
+            </a>
           </div>
         </div>
       </div>
